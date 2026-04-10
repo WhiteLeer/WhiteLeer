@@ -26,6 +26,20 @@
   - [GPU-Gems-2-Reading-Notes](https://github.com/WhiteLeer/GPU-Gems-2-Reading-Notes)
   - [GPU-Gems-3-Reading-Notes](https://github.com/WhiteLeer/GPU-Gems-3-Reading-Notes)
 
+## 接下来准备做
+
+- 把 RenderDoc 能力从“抓帧分析”升级为“自动评估器”
+  - 自动产出性能/画质评分，并驱动优化迭代
+
+- 从“工具调用”升级为“闭环调度”
+  - Planner / Executor / Evaluator / Refiner 持续循环优化
+
+- 强化 Unity / Unreal 的自动诊断链路
+  - 自动采集指标并输出可执行优化建议（不是只给原始数据）
+
+- 统一全流程 AI 生产管线
+  - Houdini → 材质 → Unity → RenderDoc 验证，质量/性能双驱动迭代
+
 ---
 
 Powered by BlackLeer
