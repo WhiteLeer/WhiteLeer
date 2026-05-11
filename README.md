@@ -1,45 +1,34 @@
 ﻿# WhiteLeer
 
-[![GitHub followers](https://img.shields.io/github/followers/WhiteLeer?style=social)](https://github.com/WhiteLeer)
+以实时图形、Unity 工具链与 MCP 自动化为核心方向的项目集合。
 
-> 我主要聚焦在实时图形、Unity 工具链，以及 AI 驱动的 DCC/引擎生产流程自动化。
+## 重点仓库
 
-## 我在做什么
+### 图形与学习
 
-- Unity 渲染与开发工具
-  - [UnityToolbox](https://github.com/WhiteLeer/UnityToolbox)
-  - [graphics-algorithm-implementation](https://github.com/WhiteLeer/graphics-algorithm-implementation)
+- `unity-graphics-lab`
+- `rtr4-reading-notes`
+- `pbrt4-reading-notes`
+- `gpu-gems-vol1-notes`
+- `gpu-gems-vol2-notes`
+- `gpu-gems-vol3-notes`
 
-- AI + DCC + Unity 的自动化资产流水线
-  - [Unity-Houdini-AI-Pipeline](https://github.com/WhiteLeer/Unity-Houdini-AI-Pipeline)
-  - [dcc-mcp](https://github.com/WhiteLeer/dcc-mcp)
-  - [pixelLab-mcp](https://github.com/WhiteLeer/pixelLab-mcp)
+### DCC 与流程自动化
 
-- 面向生产调试与协作的 MCP 工具
-  - [RenderDoc_mcp](https://github.com/WhiteLeer/RenderDoc_mcp)
-  - [AssistantD_mcp](https://github.com/WhiteLeer/AssistantD_mcp)
+- `unity-ai-houdini-pipeline`
+- `dcc-mcp`
+- `pixellab-mcp`
+- `assistantd-channel-mcp`
+- `renderdoc-mcp`
 
-- 系统化整理图形学阅读笔记
-  - [RTR4-Reading-Notes](https://github.com/WhiteLeer/RTR4-Reading-Notes)
-  - [PBRT4-Reading-Notes](https://github.com/WhiteLeer/PBRT4-Reading-Notes)
-  - [GPU-Gems-1-Reading-Notes](https://github.com/WhiteLeer/GPU-Gems-1-Reading-Notes)
-  - [GPU-Gems-2-Reading-Notes](https://github.com/WhiteLeer/GPU-Gems-2-Reading-Notes)
-  - [GPU-Gems-3-Reading-Notes](https://github.com/WhiteLeer/GPU-Gems-3-Reading-Notes)
+### 运维与工具
 
-## 接下来准备做
+- `bilibili-ops-automation`
+- `sr-assetstudio-toolchain`
 
-- 把 RenderDoc 能力从“抓帧分析”升级为“自动评估器”
-  - 自动产出性能/画质评分，并驱动优化迭代
+## 关注重点
 
-- 从“工具调用”升级为“闭环调度”
-  - Planner / Executor / Evaluator / Refiner 持续循环优化
+- 将图形研究转化为可执行工具
+- 构建跨 DCC 与引擎的稳定生产闭环
+- 以自动化方式持续提升开发效率
 
-- 强化 Unity / Unreal 的自动诊断链路
-  - 自动采集指标并输出可执行优化建议（不是只给原始数据）
-
-- 统一全流程 AI 生产管线
-  - Houdini → 材质 → Unity → RenderDoc 验证，质量/性能双驱动迭代
-
----
-
-Powered by BlackLeer
