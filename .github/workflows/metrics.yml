@@ -15,7 +15,7 @@ jobs:
       - name: Generate metrics
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN || github.token }}
           user: WhiteLeer
           template: classic
           base: header, activity, community, repositories
@@ -25,4 +25,7 @@ jobs:
           plugin_languages_limit: 8
           plugin_isocalendar: yes
           plugin_stars: yes
+          output_action: commit
+          committer_branch: main
+          committer_message: "chore: update github metrics"
           filename: github-metrics.svg
