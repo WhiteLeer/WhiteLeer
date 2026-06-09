@@ -4,6 +4,10 @@
 
 ![Metrics](./github-metrics.svg)
 
+## 当前技术链
+
+![个人技术链](./personal-tech-chain.png)
+
 ## 当前主要仓库
 
 ### 图形与渲染
@@ -12,8 +16,8 @@
   - Unity 图形实验场：渲染算法验证、效果对比与工程化落地
 - `unity-shadertoy-validation`
   - Shadertoy 提取、移植、验收与对照
-- `unity-sr-extraction-validation`
-  - SR / 米游系资源导入、绑定、Timeline 重建与验收
+- `unity-extraction-validation`
+  - SR / 米游系资源导入恢复、绑定检查、Timeline 重建与内容验收
 - `graphics-reading-notes`
   - 图形学读书笔记总仓库（RTR4 / PBRT4 / GPU Gems）
 
@@ -23,8 +27,8 @@
   - Blender / Houdini / Substance Designer 自动化工具集合
 - `unity-ai-houdini-pipeline`
   - Artwork → AI 3D → Houdini → Unity 的内容生产流水线
-- `indie-houdini-honeycomb-kit`
-  - 独立的 Houdini HDA / 模块化建模工具包
+- `houdini-procedural-kit`
+  - 程序化资产探索与可复用 HDA 工作流
 - `renderdoc-mcp`
   - RenderDoc 自动化抓帧与分析
 
