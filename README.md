@@ -1,48 +1,52 @@
 # WhiteLeer
 
-聚焦实时图形、Unity 工具链、DCC 自动化与 MCP 工程化实践的个人项目主页。
+聚焦实时图形、Unity 工具链、DCC 自动化与资产处理工作流。
 
 ![Metrics](./github-metrics.svg)
 
-## 当前技术链
+## 技术链
 
-![个人技术链](./personal-tech-chain.png)
+```mermaid
+flowchart LR
+    Extraction["资源提取与整理"] --> Validation["Unity 导入与验收"]
+    Shadertoy["Shadertoy 参考移植"] --> Graphics["Unity 图形实验"]
+    Validation --> Graphics
+    DCC["DCC MCP 自动化"] --> Extraction
+    DCC --> Houdini["Houdini 程序化资产"]
+    RenderDoc["RenderDoc Workbench"] --> Validation
+    RenderDoc --> Graphics
+    Reading["图形学阅读"] --> Graphics
+```
 
 ## 当前主要仓库
 
-### 图形与渲染
+### 图形、渲染与验收
 
-- `unity-graphics-lab`
-  - Unity 图形实验场：渲染算法验证、效果对比与工程化落地
-- `unity-shadertoy-validation`
-  - Shadertoy 提取、移植、验收与对照
-- `unity-extraction-validation`
-  - SR / 米游系资源导入恢复、绑定检查、Timeline 重建与内容验收
-- `graphics-reading-notes`
-  - 图形学读书笔记总仓库（RTR4 / PBRT4 / GPU Gems）
+- [`unity-graphics-lab`](https://github.com/WhiteLeer/unity-graphics-lab)
+  - Unity 图形实验场：渲染算法验证、共享预览系统与工程化示例。
+- [`unity-shadertoy-validation`](https://github.com/WhiteLeer/unity-shadertoy-validation)
+  - Shadertoy 参考提取、Unity 移植、效果对照与可复现验收。
+- [`unity-extraction-validation`](https://github.com/WhiteLeer/unity-extraction-validation)
+  - Unity 资源提取后的导入恢复、材质与绑定检查、角色规范化及内容验证。
+- [`renderdoc-workbench`](https://github.com/WhiteLeer/renderdoc-workbench)
+  - GUI 优先的 RenderDoc 图形调试工作台，覆盖目标启动、抓帧管理、RDC 分析与报告导出。
 
-### DCC 与生产流水线
+### DCC、资产与工具链
 
-- `dcc-mcp`
-  - Blender / Houdini / Substance Designer 自动化工具集合
-- `unity-ai-houdini-pipeline`
-  - Artwork → AI 3D → Houdini → Unity 的内容生产流水线
-- `houdini-procedural-kit`
-  - 程序化资产探索与可复用 HDA 工作流
-- `renderdoc-mcp`
-  - RenderDoc 自动化抓帧与分析
+- [`dcc-mcp`](https://github.com/WhiteLeer/dcc-mcp)
+  - 面向 Blender、Houdini、Maya 与 Substance Designer 的统一常驻服务和 MCP Bridge。
+- [`my-assets-studio`](https://github.com/WhiteLeer/my-assets-studio)
+  - AnimeStudio 上游基线镜像；资源提取与游戏适配在独立分支维护。
+- [`houdini-procedural-kit`](https://github.com/WhiteLeer/houdini-procedural-kit)
+  - 模块化环境探索、可复用 HDA 与游戏引擎导出工作流。
 
-### 私有仓库
+### 图形知识
 
-- `sr-assetstudio-toolchain`
-  - 面向 SR 资源提取与处理的定制 AssetStudio 工具链
-- `whiteleer-memory-daily`
-  - 每日工作记录与会话汇总
-- `whiteleer-memory-month`
-  - 个人长期记忆与知识基座
+- [`graphics-reading-notes`](https://github.com/WhiteLeer/graphics-reading-notes)
+  - RTR4、PBRT4 与 GPU Gems 系列图形学笔记的统一归档。
 
 ## 说明
 
-- 本仓库是主页导航仓库，不承担单个项目的详细文档职责。
+- 本仓库是公开项目导航，不代替各项目自己的文档。
+- 私有仓库用于资产研究工作区、每日记录与长期知识沉淀，不在公开主页逐项展示。
 - `github-metrics.svg` 由 `.github/workflows/metrics.yml` 自动更新。
-- 仓库列表会随实际项目调整，旧名称或已拆分内容不会继续在这里保留。
