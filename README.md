@@ -6,17 +6,7 @@
 
 ## 技术链
 
-```mermaid
-flowchart LR
-    Extraction["资源提取与整理"] --> Validation["Unity 导入与验收"]
-    Shadertoy["Shadertoy 参考移植"] --> Graphics["Unity 图形实验"]
-    Validation --> Graphics
-    DCC["DCC MCP 自动化"] --> Extraction
-    DCC --> Houdini["Houdini 程序化资产"]
-    RenderDoc["RenderDoc Workbench"] --> Validation
-    RenderDoc --> Graphics
-    Reading["图形学阅读"] --> Graphics
-```
+![个人技术链](./personal-tech-chain.png)
 
 ## 当前主要仓库
 
