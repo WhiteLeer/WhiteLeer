@@ -14,31 +14,25 @@
 
 - [`unity-graphics-lab`](https://github.com/WhiteLeer/unity-graphics-lab)
   - Unity 图形实验场：渲染算法验证、共享预览系统与工程化示例。
-  - TOPICS: `unity`, `rendering`, `urp`
 - [`unity-shadertoy-validation`](https://github.com/WhiteLeer/unity-shadertoy-validation)
   - Shadertoy 参考提取、Unity 移植、效果对照与可复现验收。
-  - TOPICS: `shadertoy`, `unity`, `validation`
 - [`unity-extraction-validation`](https://github.com/WhiteLeer/unity-extraction-validation)
   - Unity 资源提取后的导入恢复、材质与绑定检查、角色规范化及内容验证。
-  - TOPICS: `unity`, `validation`, `asset-extraction`
 
 ### 图形调试与工具
 
 - [`my-renderdoc`](https://github.com/WhiteLeer/my-renderdoc)
   - Personal RenderDoc baseline with game-version-specific branches.
-  - TOPICS: 未设置
 
 ### 资产与内容工作区
 
 - [`my-assets-studio`](https://github.com/WhiteLeer/my-assets-studio)
   - AnimeStudio 上游基线镜像；资源提取与游戏适配在独立分支维护。
-  - TOPICS: `asset-extraction`, `assetstudio`, `unity`
 
 ### 图形知识
 
 - [`graphics-reading-notes`](https://github.com/WhiteLeer/graphics-reading-notes)
   - RTR4、PBRT4 与 GPU Gems 系列图形学笔记的统一归档。
-  - TOPICS: `computer-graphics`, `reading-notes`, `rendering`
 
 ## 说明
 
