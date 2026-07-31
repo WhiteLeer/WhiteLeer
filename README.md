@@ -1,6 +1,6 @@
 # WhiteLeer
 
-聚焦实时图形、Unity 工具链、DCC 自动化与资产处理工作流。
+业余研究解包、逆向相关的内容
 
 ![Metrics](./github-metrics.svg)
 
@@ -10,32 +10,24 @@
 
 ## 当前主要仓库
 
-### 图形、渲染与验收
+### 图形渲染
 
 - [`unity-graphics-lab`](https://github.com/WhiteLeer/unity-graphics-lab)
-  - Unity 图形实验场：渲染算法验证、共享预览系统与工程化示例。
+  - 一些渲染效果的实现示例
 - [`unity-shadertoy-validation`](https://github.com/WhiteLeer/unity-shadertoy-validation)
-  - Shadertoy 参考提取、Unity 移植、效果对照与可复现验收。
+  - 将 Shadertoy 上的效果迁移到 Unity
 - [`unity-extraction-validation`](https://github.com/WhiteLeer/unity-extraction-validation)
-  - Unity 资源提取后的导入恢复、材质与绑定检查、角色规范化及内容验证。
+  - 将解包后的资源提取到 Unity 并还原结构
 
-### 图形调试与工具
+### 相关工具
 
 - [`my-renderdoc`](https://github.com/WhiteLeer/my-renderdoc)
-  - Personal RenderDoc baseline with game-version-specific branches.
-
-### 资产与内容工作区
+  - 修改 renderdoc 突破部分游戏的反截帧
 
 - [`my-assets-studio`](https://github.com/WhiteLeer/my-assets-studio)
-  - AnimeStudio 上游基线镜像；资源提取与游戏适配在独立分支维护。
+  - 修改 AnimeStudio 解包部分游戏版本
 
 ### 图形知识
 
 - [`graphics-reading-notes`](https://github.com/WhiteLeer/graphics-reading-notes)
-  - RTR4、PBRT4 与 GPU Gems 系列图形学笔记的统一归档。
-
-## 说明
-
-- 本仓库是公开项目导航，不代替各项目自己的文档。
-- 私有仓库用于资产研究工作区、每日记录与长期知识沉淀，不在公开主页逐项展示。
-- `github-metrics.svg` 由 `.github/workflows/metrics.yml` 自动更新。
+  - RTR4、PBRT4、GPU Gems 系列常见效果、算法实现思路汇总
