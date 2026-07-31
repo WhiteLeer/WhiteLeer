@@ -1,6 +1,10 @@
 # WhiteLeer
 
-业余研究解包、逆向相关的内容
+<p align="center">
+  <em>Wer ein Warum zu leben hat, erträgt fast jedes Wie.</em><br>
+  知道自己为何而活的人，几乎可以忍受任何一种生活。<br>
+  <sub>— Friedrich Nietzsche</sub>
+</p>
 
 ![Metrics](./github-metrics.svg)
 
@@ -23,7 +27,6 @@
 
 - [`my-renderdoc`](https://github.com/WhiteLeer/my-renderdoc)
   - 修改 renderdoc 突破部分游戏的反截帧
-
 - [`my-assets-studio`](https://github.com/WhiteLeer/my-assets-studio)
   - 修改 AnimeStudio 解包部分游戏版本
 
