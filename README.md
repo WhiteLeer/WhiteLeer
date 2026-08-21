@@ -33,4 +33,4 @@
 ### 图形知识
 
 - [`graphics-reading-notes`](https://github.com/WhiteLeer/graphics-reading-notes)
-  - RTR4、PBRT4、GPU Gems 系列常见效果、算法实现思路汇总
+  - RTR4、GPU Gems 1–3 的章节笔记，包含原文整理、个人理解、问题讨论和 Unity/UE 工程补充；后续推进 GPU Zen 与 GPU Pro
